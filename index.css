@@ -84,6 +84,7 @@ ul > li {
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   border-radius: 0em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+  border-radius: 1em;
 }
 
 ul > li > a {
@@ -93,6 +94,7 @@ ul > li > a {
   align-items: center;
   gap: 2em;
   padding: 1em;
+  margin: 1em 0;
 }
 
 a {
@@ -101,5 +103,6 @@ a {
 }
 
 ul > li > a:hover {
+  border-radius: 1em;
   box-shadow: rgb(28 32 93 / 24%) 0px 0px 16px 0px;
 }
