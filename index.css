@@ -8,6 +8,7 @@ body, html {
 body {
   background-image: linear-gradient(to bottom, #305AB0, #9AB885);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #vanta {
